@@ -101,7 +101,7 @@
                         &kp ESCAPE  &kp T           &kp Q  &kp W           &kp E  &kp R        &trans  &trans  &trans  &trans  &trans  &trans
                         &kp TAB     &kp LEFT_SHIFT  &kp A  &kp S           &kp D  &kp F        &trans  &trans  &trans  &trans  &trans  &trans
                         &kp I       &kp LCTRL       &kp Z  &kp X           &kp C  &kp V        &trans  &trans  &trans  &trans  &trans  &trans
-                        &msc SCRL_DOWN  &mo 6  &kp SPACE    &tog 4  &trans  &trans
+                        &kp CAPS  &kp M  &kp SPACE    &tog 4  &trans  &trans
             >;
         };
     };
