@@ -24,6 +24,18 @@
 };
 
 / {
+    combos {
+        compatible = "zmk,combos";
+        combo_esc {
+            timeout-ms = <50>;
+            key-positions = <34 35>;
+            bindings = <&td1>;
+            layers = <1>
+        };
+    };
+};
+
+/ {
     behaviors {
         td0: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
@@ -83,7 +95,7 @@
 
         gaming_layer {
             bindings = <
-                        &kp ESCAPE  &kp T           &kp Q  &kp W           &kp E  &kp R        &td1  &td1  &kp N0  &trans  &trans  &trans
+                        &kp ESCAPE  &kp T           &kp Q  &kp W           &kp E  &kp R        &trans  &trans  &trans  &trans  &trans  &trans
                         &kp TAB     &kp LEFT_SHIFT  &kp A  &kp S           &kp D  &kp F        &trans  &trans  &trans  &trans  &trans  &trans
                         &kp I       &kp LCTRL       &kp Z  &kp X           &kp C  &kp V        &trans  &trans  &trans  &trans  &trans  &trans
                         &kp CAPS  &kp M  &kp SPACE    &tog 4  &trans  &trans
