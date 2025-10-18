@@ -73,7 +73,7 @@
                         &mt LWIN F1             &kp F2          &kp F3       &kp F4       &kp F5       &kp F6       &kp F7       &kp F8       &kp F9       &kp F10      &kp F11      &mt RWIN F12
                         &mt LCTRL PLUS          &kp EXCL        &kp AT       &kp HASH     &kp DOLLAR   &kp PERCENT  &kp CARET    &kp AMPS     &kp STAR     &kp LPAR     &kp RPAR     &mt RALT UNDER
                         &mt LALT EQUAL          &kp N1          &kp N2       &kp N3       &kp N4       &kp N5       &kp N6       &kp N7       &kp N8       &kp N9       &kp N0       &mt RALT MINUS
-                        &lt 3 TAB               &trans          &trans       &trans       &trans       &lt 3 DEL
+                        &lt 3 TAB               &trans          &trans       &tog 3       &trans       &lt 3 DEL
             >;
         };
 
@@ -92,6 +92,15 @@
                         &bt BT_CLR              &bt BT_SEL 0    &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 4 &bt BT_SEL 3 &bt BT_SEL 2 &bt BT_SEL 1 &bt BT_SEL 0 &bt BT_CLR
                         &ext_power EP_OFF       &kp KP_NUM      &none        &none        &none        &none        &none        &none        &none        &none        &none        &ext_power EP_OFF
                         &trans                  &none           &trans       &trans       &none        &trans
+            >;
+        };
+
+        Gaming1 {
+            bindings = <
+                        &kp ESCAPE  &kp T           &kp Q  &kp W           &kp E  &kp R        &trans  &trans  &trans  &trans  &trans  &trans
+                        &kp TAB     &kp LEFT_SHIFT  &kp A  &kp S           &kp D  &kp F        &trans  &trans  &trans  &trans  &trans  &trans
+                        &kp I       &kp LCTRL       &kp Z  &kp X           &kp C  &kp V        &trans  &trans  &trans  &trans  &trans  &trans
+                        &msc SCRL_DOWN  &mo 6  &kp SPACE    &tog 3  &trans  &trans
             >;
         };
     };
