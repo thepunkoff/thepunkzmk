@@ -34,9 +34,9 @@
     };
 
     behaviors {
-        td1: tap_dance_0 {
+        td1: tap_dance_1 {
             compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
+            #binding-cells = <1>;
             tapping-term-ms = <200>;
             bindings = <&kp N1>, <&kp N2>, <&kp N3>, <&kp N4>, <&kp N5>, <&kp N6>, <&kp N7>, <&kp N8>, <&kp N9>;
         };
